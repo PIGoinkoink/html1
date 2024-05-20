@@ -87,17 +87,11 @@ nav{
 .korobka1{
     color: #ffcd8a;
 	background-color: #310844; 
-	text-align: center;c0
+	text-align: center;
 	height: 100vh;
 	width: 100%;
     h1{
         font-size: 100px;
-    }
-    h2{
-        font-size: 40px;
-    }
-    h3{
-        font-size: 20px;
     }
 }
 .korobka12{
@@ -118,10 +112,20 @@ nav{
 	background-color: #310844; 
 	text-align: center;
     width: 100%;
+    img{
+        rotate: 10deg;
+    z-index: 5;
+    position: absolute;
+    top: 200px;
+    height: 400px;
+    width: 300px;
+    left: calc(50% + 200px );
+    background-color: #e2dfd5
+}
     }
 }
 .korobka3{
-	color:#ffcd8a;
+	color: #bc8c4d;
 	background-color: #310844; 
 	text-align: center;
 	height: 200vh;
@@ -131,7 +135,12 @@ nav{
     h1{
         font-size: 100px;
     }
-
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 20px;
+    }
 }
 .btn1{
     background-color:#ffcd8a;
