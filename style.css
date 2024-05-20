@@ -1,9 +1,60 @@
+body{
+    margin:0;
+    background-color: #310844;
+    }
+    .sectionhero{
+        background-color: #310844;
+    }
+    .korobka0{
+        color:#0d3748;
+        background-color: #310844; 
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        margin: 0 15px 0 15px;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        h1{
+            font-size: 100px;
+        }
+    }
+    
+    .korobka{
+        color:#0d3748;
+        background-color: #310844; 
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        margin: 0 20px 0 20px;
+        align-items: center;
+        h1{
+            font-size: 100px;
+        }
+    
+    }
+    img{
+        width: 400px;
+        height: 400px;
+        
+    }
+    .dflex{
+        display: flex;
+    }
+    .btn{
+        background-color:#310844;
+        color: #124e65;
+        font-size: 50px;
+        text-decoration:none;
+        padding: 10px 30px;
+        margin: 0 0 5px 5px ;
+    }
 nav{
     height: 90px;
     display: flex;
     align-items: center;
     padding-left: 50px;
-    background-color: #5c412d;
+    background-color: #310844;
 }
  .link{
     font-size: 20px;
@@ -30,6 +81,72 @@ nav{
 }
 .btn_krasiviy:hover{
     background-color:#f2e682;
-    color: ;
-    box-shadow: 0 0 3px 3px
+    color: #bca4e3;
+    box-shadow: 0 0 2px 2px
+}
+.korobka1{
+    color: #ffcd8a;
+	background-color: #310844; 
+	text-align: center;c0
+	height: 100vh;
+	width: 100%;
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+.korobka12{
+    color:#ffcd8a;
+	background-color: #310844; 
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 24px;
+      }
+}
+.korobka2{
+    color:#ffcd8a;
+	background-color: #310844; 
+	text-align: center;
+    width: 100%;
+    img{
+        rotate: 10deg;
+    z-index: 5;
+    position: absolute;
+    top: 200px;
+    height: 400px;
+    width: 300px;
+    left: calc(50% + 200px );
+    background-color: #e2dfd5
+}
+    }
+}
+.korobka3{
+	color:#ffcd8a;
+	background-color: #948c7c; 
+	text-align: center;
+	height: 200vh;
+	width: 100%;
+    margin: 0 20px 0 20px;
+    align-items: center;
+    h1{
+        font-size: 100px;
+    }
+
+}
+.btn1{
+    background-color:#ffcd8a;
+    color: #b8915f;
+    font-size: 50px;
+    text-decoration:none;
+    padding: 10px 30px;
 }
