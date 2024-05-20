@@ -6,7 +6,7 @@ body{
         background-color: #310844;
     }
     .korobka0{
-        color:#0d3748;
+        color:#ffcd8a;
         background-color: #310844; 
         text-align: center;
         height: 100vh;
@@ -21,7 +21,7 @@ body{
     }
     
     .korobka{
-        color:#0d3748;
+        color:#ffcd8a;
         background-color: #310844; 
         text-align: center;
         height: 100vh;
@@ -43,7 +43,7 @@ body{
     }
     .btn{
         background-color:#310844;
-        color: #124e65;
+        color: #ffcd8a;
         font-size: 50px;
         text-decoration:none;
         padding: 10px 30px;
@@ -118,21 +118,11 @@ nav{
 	background-color: #310844; 
 	text-align: center;
     width: 100%;
-    img{
-        rotate: 10deg;
-    z-index: 5;
-    position: absolute;
-    top: 200px;
-    height: 400px;
-    width: 300px;
-    left: calc(50% + 200px );
-    background-color: #e2dfd5
-}
     }
 }
 .korobka3{
 	color:#ffcd8a;
-	background-color: #948c7c; 
+	background-color: #310844; 
 	text-align: center;
 	height: 200vh;
 	width: 100%;
